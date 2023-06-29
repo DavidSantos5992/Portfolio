@@ -58,7 +58,7 @@ const Banner = () => {
               className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
 
               <button className='btn btn-lg'>Fale comigo</button>
-              <a href="#" className='text-gradient btn-link'>Meu Portifolio</a>
+              <a target='_blank' href="https://github.com/DavidSantos5992" className='text-gradient btn-link'>Meu Portifolio</a>
 
             </motion.div>
 
@@ -69,11 +69,11 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className='flex text-[20px] gap-x-6 max-w-max mx-auto'>
 
-              <a href="#">
+              <a target='_blank' href="https://github.com/DavidSantos5992">
                 <FaGithub />
               </a>
 
-              <a href="#">
+              <a target='_blank' href="https://www.linkedin.com/in/david-henrique-b5704526b/">
                 <FaLinkedin />
               </a>
 
