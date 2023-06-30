@@ -2,7 +2,7 @@ import React from 'react';
 
 import Image from '../assets/avatar2.png'
 import { FaGithub, FaLinkedin, FaDribbble } from 'react-icons/fa'
-import { TypeAnimation } from 'react-type-animation'
+import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion'
 import { fadeIn } from '../variants'
 
