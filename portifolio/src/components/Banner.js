@@ -33,7 +33,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className='mb-6 text-[36px] lg:Text-[60px] font-secondary font-semibold uppercase leading-[1'>
               <span className=' text-white mr-4'>Sou Desenvolvedor Front-end, e trabalho com as seguintes tecnologias: </span>
-              <TypeAnimation sequence={['ReactJs', 2000, 'VueJs', 200, 'JavaScript', 200, 'TailWindCSS', 200]}
+              <TypeAnimation sequence={['React.Js', 2000, 'Next.Js', 200, 'Vue.Js', 200, 'JavaScript', 200, 'TailWindCSS', 200,]}
                 speed={50} className='text-accent'
                 wrapper='span'
                 repeat={Infinity}
@@ -47,8 +47,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className='mb-8 max-w-lg mx-auto lg:mx-0 '
             >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum praesentium distinctio labore aperiam laborum ullam, quod laboriosam voluptatibus nobis blanditiis molestias rem itaque numquam officiis quidem velit ut fugiat. Libero?
-            </motion.p>
+              Graduando em Ciência da Computação apaixonado por tecnologia, com 2 anos de experiência em front-end. Autodidata e ávido por aprender novas tecnologias.            </motion.p>
 
             <motion.div
               variants={fadeIn('up', 0.6)}
@@ -57,8 +56,12 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
 
-              <button className='btn btn-lg'>Fale comigo</button>
-              <a target='_blank' href="https://github.com/DavidSantos5992" className='text-gradient btn-link'>Meu Portifolio</a>
+              <a target='_blank'
+                href='https://api.whatsapp.com/send?phone=5511998252377&text=Ol%C3%A1%2C%20vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es'
+                className='btn btn-sm flex items-center justify-center'
+              >
+                Fale comigo
+              </a>
 
             </motion.div>
 

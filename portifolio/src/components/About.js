@@ -19,16 +19,18 @@ const About = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className='bg-about bg-contain bg-no-repeat w-[640px] h-[640px] mix-blend-lighten bg-top'>
+            className='bg-about bg-contain bg-no-repeat w-[640px] h-[640px] mix-blend-lighten bg-top'
+          >
 
           </motion.div>
 
-          <motion.div 
-           variants={fadeIn('left', 0.5)}
-           initial='hidden'
-           whileInView={'show'}
-           viewport={{ once: false, amount: 0.3 }}
-          className='flex-1'>
+          <motion.div
+            variants={fadeIn('left', 0.5)}
+            initial='hidden'
+            whileInView={'show'}
+            viewport={{ once: false, amount: 0.3 }}
+            className='flex-1'
+          >
 
             <h2 className='h2 text-axccent'>about.me</h2>
             <h3 className='h3 mb-4'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </h3>
