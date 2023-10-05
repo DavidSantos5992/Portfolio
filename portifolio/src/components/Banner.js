@@ -32,8 +32,8 @@ const Banner = () => {
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
               className='mb-6 text-[36px] lg:Text-[60px] font-secondary font-semibold uppercase leading-[1'>
-              <span className=' text-white mr-4'>Sou Desenvolvedor Front-end, e trabalho com as seguintes tecnologias: </span>
-              <TypeAnimation sequence={['React.Js', 2000, 'Next.Js', 200, 'Vue.Js', 200, 'JavaScript', 200, 'TailWindCSS', 200,]}
+              <span className=' text-white mr-4'>Sou Desenvolvedor Front-end, e trabalho com as seguintes tecnologias: <br /> </span>
+              <TypeAnimation sequence={['React.Js', 2000, 'Next.Js', 1500, 'Vue.Js', 1500, 'JavaScript', 1500, 'TailWindCSS', 1500,]}
                 speed={50} className='text-accent'
                 wrapper='span'
                 repeat={Infinity}
