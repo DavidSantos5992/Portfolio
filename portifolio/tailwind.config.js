@@ -1,3 +1,4 @@
+
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
@@ -20,7 +21,7 @@ module.exports = {
     extend: {
       colors: {
         primary: '#0a0a0a',
-        accent: '#B809C3',
+        accent: '#1209c3',
       },
       backgroundImage: {
         site: "url('./assets/site-bg.jpg')",
