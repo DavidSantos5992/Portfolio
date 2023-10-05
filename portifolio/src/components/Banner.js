@@ -88,7 +88,7 @@ const Banner = () => {
             initial='hidden'
             whileInView={'show'}
             className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px] '>
-            <img src={Image} alt="" />
+            <img src={Image} alt="Perfiil David Santos" />
           </motion.div>
 
         </div>

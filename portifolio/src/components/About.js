@@ -19,7 +19,7 @@ const About = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className='bg-about bg-contain bg-no-repeat w-[640px] h-[640px] mix-blend-lighten bg-top'
+            className='bg-about bg-contain bg-no-repeat w-[640px] h-[640px] bg-top'
           >
 
           </motion.div>
@@ -32,9 +32,9 @@ const About = () => {
             className='flex-1'
           >
 
-            <h2 className='h2 text-axccent'>about.me</h2>
-            <h3 className='h3 mb-4'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </h3>
-            <p className='mb-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sunt, nisi perspiciatis rerum quaerat dolor? Tenetur deserunt tempore illum quam debitis minima delectus! Facere tempora numquam id, officia voluptate accusantium!</p>
+            <h2 className='h2 text-axccent'>Perfil Pessoal :</h2>
+            <h3 className='h3 mb-4'>Amo tecnologia desde a infância, mergulhei nela aos 12 anos.</h3>
+            <p className='mb-6'>Fiz meu primeiro curso profissionalizante em um centro de ensino especializado, e agora, após um período de dois anos, estou empregado como desenvolvedor. Além disso, estou nos estágios finais do curso de Ciência da Computação.</p>
 
             <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
 
@@ -42,12 +42,11 @@ const About = () => {
                 <div>
                   <div className='text-[40px font-primary text-gradient mb-2'>
 
-                    {inView ? <CountUp start={0} end={1} duration={3} /> : null}
-                    k+
+                    {inView ? <CountUp start={0} end={30} duration={3} /> : null}
                   </div>
                   <div className='font-primary text-sm tracking-[2px'>
-                    Projectos <br />
-                    Comppletos
+                    Projetos <br />
+                    Completos
                   </div>
                 </div>
               </div>
@@ -55,26 +54,17 @@ const About = () => {
                 <div>
                   <div className='text-[40px font-primary text-gradient mb-2'>
 
-                    {inView ? <CountUp start={0} end={13} duration={3} /> : null}
+                    {inView ? <CountUp start={0} end={2} duration={3} /> : null}
                   </div>
                   <div className='font-primary text-sm tracking-[2px'>
-                    years of <br />
-                    experience
+                    Anos de <br />
+                    experiência
                   </div>
                 </div>
               </div>
               <div>
                 <div>
-                  <div className='text-[40px font-primary text-gradient mb-2'>
 
-                    {inView ? <CountUp start={0} end={1} duration={3} /> : null}
-                    k+
-
-                  </div>
-                  <div className='font-primary text-sm tracking-[2px'>
-                    Clientes  <br />
-                    satisfeitos
-                  </div>
                 </div>
               </div>
 
@@ -83,9 +73,11 @@ const About = () => {
             </div>
 
             <div className='flex gap-8 items-center'>
-              <button className='btn btn-lg'>Fale comigo</button>
-              <a href="#" className='text-gradient btn-link'>
-                Meu Portifolio
+
+              <a
+                target='_blank'
+                href='https://api.whatsapp.com/send?phone=5511998252377&text=Ol%C3%A1%2C%20vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es'
+                className='btn btn-sm flex items-center justify-center'>Fale comigo
               </a>
             </div>
 
